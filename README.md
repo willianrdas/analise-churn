@@ -56,9 +56,10 @@ O projeto se divide em 3 partes principais:
 - Pessoas idosas tem chance maior de churn. Procurar entender o motivo por trás disso é importante para manter essas pessoas, seja dificuldade de usar os serviços ou serviços desnecessários acumulando no vallor.
 - Pagamento manual tem chance bem maior de churn do que pagamento automático. O incentivo para esse tipo de pagamento é algo que deve ser considerado crucial.
 
-### Análise Exploratória
+### Análise do Modelo
 
-- O modelo estatístico prioriza sensebilidade, ou seja, ele prioritiza a
+- O modelo estatístico prioriza sensebilidade, ou seja, encontrar o maior número possível de clientes em risco de cancelamento. Em média, nosso modelo encontra 8 em cada 10 churners.
+- Abordando 30% dos clientes com maior score, conseguimos capturar 65% de todos os churners, ou seja
 
 
 
