@@ -47,7 +47,7 @@ O projeto se divide em 3 partes principais:
 - Métricas de desempenho: acurácia, sensibilidade e precisão
 - Matrix de confusão e curva de gain para visualização dos resultados
 - Interpretação voltada a negócio para apoio à tomada de decisão
-- 
+  
 ## Principais descobertas
 
 ### Análise Exploratória
