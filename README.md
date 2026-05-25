@@ -6,8 +6,8 @@ Esse projeto consiste em uma análise preditiva de churn desenvolvida em R, com 
 
 O objetivo é identificar clientes com maior probabilidade de cancelamento em uma empresa de telecomunicações, utilzando modelagem estatística para apoiar decisões de retenção.
 
-Download do código em R: Clique Aqui
-Download da arquivo .pbix: Clique Aqui
+Download do código em R: [Clique Aqui](https://github.com/willianrdas/analise-churn/blob/main/churn_model.R)
+Download da arquivo .pbix: [Clique Aqui](https://github.com/willianrdas/analise-churn/blob/main/Relatorio%20Final.pbix)
 
 ## Exemplo do Dashboard
 
