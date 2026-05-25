@@ -59,7 +59,14 @@ O projeto se divide em 3 partes principais:
 ### Análise do Modelo
 
 - O modelo estatístico prioriza sensebilidade, ou seja, encontrar o maior número possível de clientes em risco de cancelamento. Em média, nosso modelo encontra 8 em cada 10 churners.
-- Abordando 30% dos clientes com maior score, conseguimos capturar 65% de todos os churners, ou seja
+- Abordando 30% dos clientes com maior probabilidade de churn, conseguimos capturar 65% de todos os churners, fazendo que nosso modelo seja aproximadamente 2.1% melhor que se selecionassemos usuários ao acaso.
+- Visto que conforme sensibilidade aumenta, precisão diminui, o valor relativamente baixo de precisão é esperado. Consideramos isso pois em média o valor de adquirir um novo usuário é consideravelmente mais alto que o valor de manter o mesmo.
 
+
+## Fonte de Dados
+
+Dataset utilizado: Telco Customer Churn
+Fonte: Kaggle  
+Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 
