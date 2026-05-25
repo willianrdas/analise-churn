@@ -18,9 +18,9 @@ Download da arquivo .pbix: [Clique Aqui](https://github.com/willianrdas/analise-
 
 ## Objetivo
 
-- Entender o perfil dos clientes que normalmente cancelam.
-- Construir um modelo preditivo capaz de identificar clientes com alto risco de cancelamento.
-- Traduzir os resultados com possíveis recomendações práticas de negócio.
+- Entender o perfil dos clientes que mais cancelam
+- Construir um modelo preditivo capaz de identificar clientes em risco
+- Traduzir os resultados em recomendações práticas de negócio
 
 ## Ferramentas Utilizadas
 
@@ -35,34 +35,34 @@ O projeto se divide em 3 partes principais:
 ### Código comentado em R
 
 - Limpeza, seleção e criação de variáveis de interesse
-- Criação do modelo preditivo, incluindo métricas de desempenho
+- Criação do modelo preditivo com métricas de desempenho e curvas de Gain
 
-### Visão geral do problema (Power BI - Página 1)
+### Visão geral da base (Power BI - Página 1)
 
-- Informações geral sobre a base, incluindo porcentagem de churn e número de pessoas que cancelaram
-- Análise exploratória, cruzando diversas variáveis de interesse com a probabilidade de uma pessoa churnar
+- Indicadores gerais: taxa de churn, ticket médio e total de clientes
+- Análise exploratória cruzando variáveis de interesse com o comportamento de cancelamento
 
 ### Visão geral do modelo preditivo (Power BI - Página 2)
 
-- Métricas específicas do modelo, como acurácia, recall (sensibilidade) e precisão, além do número de usuários em risco.
-- Matrix de confusão e análise gráfica de gain para facilitar a visualização dos resultados do modelo.
-- Breve explicação voltada à negócio para tomada de decisão.
-
+- Métricas de desempenho: acurácia, sensibilidade e precisão
+- Matrix de confusão e curva de gain para visualização dos resultados
+- Interpretação voltada a negócio para apoio à tomada de decisão
+- 
 ## Principais descobertas
 
 ### Análise Exploratória
 
-- Considerando que o valor de obter novos usuários pode ser extremamente maior que o valor de retenção, a taxa de 26,5% de Churn é extremamente preocupamente
-- Contratos anuais e bienais apresentam churn proporcional consideravelmente menor que contratos mensais. Além disso, usuários com menos de um ano de contrato churnam bem mais. Incentivar contratos mais longos com serviços extras ou descontos pode ser uma boa estratégia, além de oferecer benefícios similares a usuários no ocmeço do contrato.
-- Pessoas idosas tem chance maior de churn. Procurar entender o motivo por trás disso é importante para manter essas pessoas, seja dificuldade de usar os serviços ou serviços desnecessários acumulando no vallor.
-- Pagamento manual tem chance bem maior de churn do que pagamento automático. O incentivo para esse tipo de pagamento é algo que deve ser considerado crucial.
+- A taxa de churn de 26,5% é preocupante considerando que o custo de aquisição de novos clientes costuma ser muito superior ao custo de retenção. Cada cliente perdido representa um investimento desperdiçado.
+- Contratos anuais e bienais apresentam churn proporcionalmente muito menor do que contratos mensais. Além disso, clientes com menos de um ano de vínculo cancelam com mais frequência. Incentivar contratos mais longos com descontos ou benefícios — especialmente nos primeiros meses — pode ser uma estratégia eficaz de retenção.
+- Clientes idosos apresentam maior propensão ao cancelamento. Entender o motivo é fundamental: pode ser dificuldade no uso dos serviços, suporte insuficiente ou acúmulo de serviços desnecessários no plano.
+- Pagamento manual está associado a uma taxa de churn bem superior ao pagamento automático, possivelmente indicando menor engajamento com o serviço. Incentivar a adesão ao débito automático deve ser considerado uma ação prioritária.
+
 
 ### Análise do Modelo
 
-- O modelo estatístico prioriza sensebilidade, ou seja, encontrar o maior número possível de clientes em risco de cancelamento. Em média, nosso modelo encontra 8 em cada 10 churners.
-- Abordando 30% dos clientes com maior probabilidade de churn, conseguimos capturar 65% de todos os churners, fazendo que nosso modelo seja aproximadamente 2.1% melhor que se selecionassemos usuários ao acaso.
-- Visto que conforme sensibilidade aumenta, precisão diminui, o valor relativamente baixo de precisão é esperado. Consideramos isso pois em média o valor de adquirir um novo usuário é consideravelmente mais alto que o valor de manter o mesmo.
-
+- O modelo prioriza sensibilidade — encontrar o maior número possível de clientes em risco de cancelamento. Em média, identifica corretamente 8 em cada 10 churners.
+- Abordando apenas 30% dos clientes com maior score de risco, é possível capturar ~65% de todos os churners — aproximadamente 2,1 vezes mais eficiente do que uma seleção aleatória com o mesmo orçamento.
+- O valor de precisão mais baixo é esperado e consciente: conforme a sensibilidade aumenta, a precisão diminui. Esse trade-off faz sentido porque o custo de perder um cliente que iria cancelar é, em geral, muito superior ao custo de uma ação de retenção desnecessária.
 
 ## Fonte de Dados
 
