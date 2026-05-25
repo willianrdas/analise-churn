@@ -12,9 +12,9 @@ Download da arquivo .pbix: [Clique Aqui](https://github.com/willianrdas/analise-
 
 ## Exemplo do Dashboard
 
-<img width="1155" height="633" alt="image" src="https://github.com/user-attachments/assets/cff5464b-6b0b-4fc4-8869-899c4ad58816" />
+<img width="1349" height="770" alt="image" src="https://github.com/user-attachments/assets/27b25fe6-aab0-44fc-8678-5aefe43165ca" />
 
-<img width="1270" height="710" alt="image" src="https://github.com/user-attachments/assets/0785b7c0-4d47-4418-bac1-878de2f05db7" />
+<img width="1344" height="777" alt="image" src="https://github.com/user-attachments/assets/6c6dd9b8-5698-413b-8828-20ed9c594afa" />
 
 ## Objetivo
 
