@@ -8,7 +8,7 @@ O objetivo é identificar clientes com maior probabilidade de cancelamento em um
 
 Download do código em R: [Clique Aqui](https://github.com/willianrdas/analise-churn/blob/main/churn_model.R)
 
-Download da arquivo .pbix: [Clique Aqui](https://github.com/willianrdas/analise-churn/blob/main/Relatorio%20Final.pbix)
+Download da arquivo .pbix: [Clique Aqui](https://github.com/willianrdas/analise-churn/raw/refs/heads/main/Relatorio%20Final.pbix)
 
 ## Exemplo do Dashboard
 
