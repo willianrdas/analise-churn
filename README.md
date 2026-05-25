@@ -57,7 +57,6 @@ O projeto se divide em 3 partes principais:
 - Clientes idosos apresentam maior propensão ao cancelamento. Entender o motivo é fundamental: pode ser dificuldade no uso dos serviços, suporte insuficiente ou acúmulo de serviços desnecessários no plano.
 - Pagamento manual está associado a uma taxa de churn bem superior ao pagamento automático, possivelmente indicando menor engajamento com o serviço. Incentivar a adesão ao débito automático deve ser considerado uma ação prioritária.
 
-
 ### Análise do Modelo
 
 - O modelo prioriza sensibilidade — encontrar o maior número possível de clientes em risco de cancelamento. Em média, identifica corretamente 8 em cada 10 churners.
