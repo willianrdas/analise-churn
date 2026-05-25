@@ -67,7 +67,8 @@ O projeto se divide em 3 partes principais:
 ## Fonte de Dados
 
 Dataset utilizado: Telco Customer Churn
-Fonte: Kaggle  
+
+Fonte: Kaggle
 Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 
