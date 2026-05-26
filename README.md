@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esse projeto consiste em uma análise preditiva de churn desenvolvida em R, com anáalise exploratória e resultados do modelo visualizados em um dashboard no Power BI.
+Esse projeto consiste em uma análise preditiva de churn desenvolvida em R, com análise exploratória e resultados do modelo visualizados em um dashboard no Power BI.
 
 O objetivo é identificar clientes com maior probabilidade de cancelamento em uma empresa de telecomunicações, utilzando modelagem estatística para apoiar decisões de retenção.
 
